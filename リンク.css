@@ -7,35 +7,33 @@
     display: block;
     margin-top: 60px;
     text-align: center;
-
   }
   button{
     display: inline-block;
     font-family: 'Sawarabi Mincho', sans-serif;
     position: relative;
-    background: none;
-    border: none;
     color: rgba(255, 255, 255, 0);
     cursor: pointer;
+    border: none;
+    background-color:white;
     background-image:url(新ヘッダー.jpg);
-    background-position:center;
-    background-size: cover;
+    background-size: contain;
     width:100%;
-
+    background-repeat:  no-repeat;
+    background-position:center center;
     text-align: center;
   }
   .container p{
     display: block;
-    font-size:3em;
-    text-decoration: none;
+    font-size: 3em;
   }
   .container div{
     display: block;
     font-size: 2em;
   }
-.container a{
-    text-decoration: none;    
-}
+  .container a{
+    text-decoration: none;
+  }
   button:hover {
       cursor: pointer;
 
@@ -44,8 +42,9 @@
   button:hover {
       color: #000000;
       background-image:url(新ヘッダー薄.jpg);
-      background-position:center;
-      background-size: cover;
+      background-repeat:  no-repeat;
+      background-position:center center;
+      background-size: contain;
   }
   html,body{
       overflow-x: hidden;
