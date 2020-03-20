@@ -20,14 +20,20 @@
     background-size: cover;
     width:100%;
     background-repeat:  no-repeat;
-    background-position:center center;
+    background-position:left center;
     text-align: center;
   }
-  .container p{
+  .container1 { display: block !important; }
+  .container2 { display: none !important; }
+  @media only screen and (max-width: 750px) {
+  .container1 { display: none !important; }
+  .container2 { display: block !important; }
+  }
+  .container1 p{
     display: block;
     font-size: 3em;
   }
-  .container div{
+  .container1 div{
     display: block;
     font-size: 2em;
   }
@@ -43,7 +49,7 @@
       color: #000000;
       background-image:url(新ヘッダー薄.jpg);
       background-repeat:  no-repeat;
-      background-position:center center;
+      background-position:left center;
       background-size: cover;
   }
   html,body{
