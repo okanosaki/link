@@ -17,7 +17,7 @@
     border: none;
     background-color:white;
     background-image:url(新ヘッダー.jpg);
-    background-size: contain;
+    background-size: cover;
     width:100%;
     background-repeat:  no-repeat;
     background-position:center center;
@@ -44,7 +44,7 @@
       background-image:url(新ヘッダー薄.jpg);
       background-repeat:  no-repeat;
       background-position:center center;
-      background-size: contain;
+      background-size: cover;
   }
   html,body{
       overflow-x: hidden;
