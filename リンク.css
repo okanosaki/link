@@ -9,17 +9,18 @@
     text-align: center;
   }
   button{
-    display:block;
+    display: inline-block;
     font-family: 'Sawarabi Mincho', sans-serif;
     position: relative;
+    background: none;
+    border: none;
     color: rgba(255, 255, 255, 0);
     cursor: pointer;
     background-image:url(新ヘッダー.jpg);
     background-position:center;
     background-size: cover;
     width:100%;
-    height: 200px;
-    text-decoration: none;
+
     text-align: center;
   }
   .container p{
@@ -36,7 +37,7 @@
       text-align: center;
   }
   button:hover {
-      color: black;
+      color: #000000;
       background-image:url(新ヘッダー薄.jpg);
       background-position:center;
       background-size: cover;
