@@ -19,7 +19,7 @@
     background-size: cover;
     width:100%;
     height: 200px;
-
+    text-decoration: none;
     text-align: center;
   }
   .container p{
