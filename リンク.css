@@ -36,7 +36,7 @@
       text-align: center;
   }
   button:hover {
-      color: #000000;
+      color: black;
       background-image:url(新ヘッダー薄.jpg);
       background-position:center;
       background-size: cover;
