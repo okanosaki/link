@@ -15,13 +15,19 @@
     color: rgba(255, 255, 255, 0);
     cursor: pointer;
     border: none;
-    background-color:white;
-    background-image:url(新ヘッダー.jpg);
+    background-color:white;   
     background-size: cover;
+    margin-top: 30px;
     width:100%;
     background-repeat:  no-repeat;
     background-position:left center;
     text-align: center;
+  }
+  .btn-1{
+    background-image:url(新ヘッダー.jpg);
+  }
+  .btn-2{
+    background-image: url(黒糸町.jpg);
   }
   .container1 { display: block !important; }
   .container2 { display: none !important; }
@@ -47,10 +53,16 @@
   }
   button:hover {
       color: #000000;
-      background-image:url(新ヘッダー薄.jpg);
       background-repeat:  no-repeat;
       background-position:left center;
       background-size: cover;
+  }
+  .btn-1:hover{
+      background-image:url(新ヘッダー薄.jpg);
+  }
+  .btn-2:hover{
+      background-image: url(黒糸町薄.jpg);
+      background-position:center;
   }
   html,body{
       overflow-x: hidden;
